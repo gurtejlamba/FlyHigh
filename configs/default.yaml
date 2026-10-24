@@ -1,0 +1,23 @@
+model:
+  provider: ollama        # ollama | vllm
+  name: qwen2.5-coder:7b  # best SQL model <=8B; alt: llama3.1:8b
+  base_url: http://localhost:11434
+  temperature: 0.0
+  max_tokens: 1024
+
+agent:
+  max_retries: 3
+  query_timeout: 30       # seconds per SQL execution
+  row_limit: 1000
+  sample_rows: 2          # rows sampled per table for schema context
+  sample_distinct: 3      # distinct values sampled per column — keep prompt short
+  null_ratio_threshold: 0.7  # warn + retry if >70% of result cells are NULL
+
+eval:
+  bird_dev_path: data/bird/dev.json
+  bird_db_path: data/bird/dev_20240627/dev_databases
+  bird_test_path: data/bird/test.json
+  bird_test_db_path: data/bird/test_databases
+  output_path: results/dev_results.json
+  log_path: results/dev_run.log
+  abstain_questions_path: tests/fixtures/abstain_questions.json

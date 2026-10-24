@@ -1,0 +1,62 @@
+[
+  {
+    "db_id": "california_schools",
+    "question": "What is the average teacher salary across all districts?",
+    "evidence": "",
+    "reason": "The california_schools database has no teacher salary column."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "Which principals have been employed for more than 10 years?",
+    "evidence": "",
+    "reason": "No principal or hire-date data exists in this database."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "What percentage of students received free lunch in 2010?",
+    "evidence": "",
+    "reason": "Free-lunch data is not present in the california_schools schema."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "How many schools have a dedicated STEM programme?",
+    "evidence": "",
+    "reason": "There is no programme-type column in california_schools."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "List all schools with a parent satisfaction rating above 4.",
+    "evidence": "",
+    "reason": "No satisfaction ratings are stored in this database."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "Which districts spent the most on technology infrastructure last year?",
+    "evidence": "",
+    "reason": "Expenditure breakdown by category does not exist in the schema."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "What is the average class size in elementary schools?",
+    "evidence": "",
+    "reason": "Class-size data is absent from the california_schools tables."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "How many students were suspended for disciplinary reasons in 2022?",
+    "evidence": "",
+    "reason": "Disciplinary records are not part of this database."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "Which schools offer after-school tutoring programmes?",
+    "evidence": "",
+    "reason": "Programme offerings are not tracked in the schema."
+  },
+  {
+    "db_id": "california_schools",
+    "question": "What is the student-to-counsellor ratio in Los Angeles Unified?",
+    "evidence": "",
+    "reason": "Counsellor staffing data does not exist in this database."
+  }
+]
